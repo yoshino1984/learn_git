@@ -1,33 +1,34 @@
-# Project: 股票量化估值判断决策系统
+# CLAUDE.md
 
-## 项目简介
-基于 Python 的股票量化分析系统，用于估值判断和投资决策支持。
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## 技术栈
-- 语言: Python 3.x
-- 数据处理: pandas, numpy
-- 数据获取: yfinance, akshare, tushare
-- 数据库: SQLite / PostgreSQL
-- 可视化: matplotlib, plotly
-- 机器学习: scikit-learn (可选)
+## Project: Python Learning Example
 
-## 代码风格
-- 遵循 PEP 8 规范
-- 使用类型注解 (Type Hints)
-- 优先使用 async/await 进行异步操作
-- 函数使用 docstring 进行文档说明
-- Maximum line length: 100 characters
+A simple Python learning project demonstrating basic Python programming concepts including modular programming, function definitions, docstrings, conditional logic, and exception handling.
 
-## 重要规则
-- NEVER commit to main directly - 使用 feature 分支开发
-- Always run tests before pushing - 推送前必须运行测试
-- 数据敏感信息（API key 等）使用环境变量存储
-- 定期备份数据和配置文件
+## Common Commands
 
-## 代码组织
-- 数据获取模块: `data_fetcher.py`
-- 数据分析模块: `analysis.py`
-- 估值模型模块: `valuation.py`
-- 决策支持模块: `decision.py`
-- 配置文件: `config.py`
-- 工具函数: `utils.py`
+### Run the main program
+```bash
+python main.py
+```
+
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+## Code Structure
+
+- `main.py` - Main program entry point with `hello_world()` and `main()` functions
+- `utils.py` - Utility functions module containing:
+  - `greet(name)` - Returns a greeting message
+  - `calculate(a, b, operation)` - Calculator supporting add/subtract/multiply/divide operations
+- `requirements.txt` - Project dependencies (currently empty)
+
+## Code Style
+
+- Follow PEP 8 conventions
+- Use docstrings (`"""..."""`) for function documentation
+- Shebang line: `#!/usr/bin/env python3`
+- Use `if __name__ == "__main__":` guard for main execution
